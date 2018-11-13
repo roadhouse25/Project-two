@@ -1,1 +1,249 @@
-asdf
+body {
+background-image:  url('https://github.com/tyreil/web_1_project_2/blob/master/assets/textures/fabric_plaid.png?raw=true');
+} 
+
+.text {
+  font-family: BLANCH_CAPS_LIGHT; 
+  font-size: 50px; 
+} 
+
+a { 
+  color: #47525d;
+  display: inline; 
+  padding: 20px;  
+  text-transform: uppercase; 
+} 
+
+.button {
+	background-image: url(https://github.com/roadhouse25/web_1_project_2/blob/master/assets/textures/az_subtle.png?raw=true);  
+	padding: 5px 55px;  
+	text-decoration: none;  
+	color: white;  
+	background-color: #ccc;  
+	background-blend-mode: multiply;
+  
+  
+} 
+
+.button:hover {
+	background-color: #00000063; 
+}
+
+.arrow {
+  height: 50px; 
+} 
+
+.right {
+  float: right;
+}
+
+ .nav.right img {
+  border-radius: 6px;
+  float: right;
+  height: auto;
+  margin: 2px;
+  width: 35px;
+}
+
+.left-nav {
+  width: auto;   
+  padding: 20px; 
+  display:inline-block; 
+} 
+
+#right_nav div a {
+  display: inline;
+  color: #47525d;
+  font-size: 16px;
+  vertical-align:middle;
+}
+
+#right_nav {
+  align-items: flex-end;
+  padding: 20px;
+	flex-direction: column;
+  text-align:right;
+}
+#right_nav div img {
+  border-radius: 5px;
+  height: auto;  
+  margin-bottom: 10px; 
+  width: 35px;
+}
+#right_nav div a {
+  padding: 0;
+}  
+
+.Gallery {
+  display: inline; 
+}  
+
+#carousel { 
+  display: block;
+  margin: auto;  
+  margin-bottom: 20px;  
+  border: 10px solid white;
+  max-width: 1200px;
+} 
+
+#carousel a {
+  opacity: 1;
+}
+
+#carousel a img.right {
+  opacity: 1;
+  position: absolute;
+  right: -20px;
+}
+
+#carousel a img.left {
+  opacity: 1;
+  position: absolute;
+  left: -20px;
+}
+
+#carousel .carousel-item p {
+  background-color: #00000063;
+  bottom: 0;
+  color: white;
+  margin:0;
+  padding: 20px;
+  position: absolute;
+  text-align: right;
+  width: 100%;
+}
+
+#view {
+  width: 100%; 
+  display: block;  
+  text-align: center;
+} 
+
+#middle-text {
+  text-align: center;  
+  margin: 60px;  
+  font-size: 23px
+}
+
+#grid .row div {
+  padding: 8px;
+}
+
+#grid .row div img {
+  width: 100%;
+} 
+
+#grid {
+  margin-bottom: 40px;
+}
+
+#view-more {
+  width: 100%; 
+  margin-bottom: 50px;
+} 
+
+span {
+  font-size: 10px;
+} 
+
+#get-ready {
+  text-align: center; 
+  margin: 0 auto; 
+  color: #ffffff; 
+} 
+
+#ready-container {
+  background-color: #666666; 
+  padding: 15px;
+} 
+
+#text-container {
+  max-width: 500px;
+  margin: 0 auto;
+}
+#twitter {
+  float:left;
+  width: 30px;
+}  
+
+
+#bottom-background {
+  width: 100%; 
+  height: 220px; 
+  background-image: url('https://github.com/tyreil/web_1_project_2/blob/master/assets/textures/az_subtle.png?raw=true');  
+  background-color: #b3b3aa; 
+  background-blend-mode: multiply; 
+  display: inline-block;
+  
+  
+}
+
+#bottom-background img {
+  width:  80px; 
+  height: 40px; 
+  
+} 
+
+.bottom-left-nav {
+  width: 400px; 
+  height: 100px; 
+}
+
+.bottom-left-nav {
+  width: 440px;   
+  padding: 20px; 
+  display:inline-block;
+}  
+
+.links-bottom a { 
+  color: #47525d;
+  display: inline; 
+  padding: 10px;  
+  text-transform: uppercase;  
+} 
+
+.find {
+    color: #e0e0dd;
+  } 
+
+#search {
+  width: 395px; 
+  background-color: white; 
+  height: 35px; 
+  display: inline-block; 
+  margin-left: 20px; 
+} 
+
+#search img {
+  width: 30px;  
+  height: 22px;  
+  margin: 5px; 
+} 
+
+#search p {
+   position: absolute;  
+   margin-left: 40px; 
+} 
+
+#looking {
+  margin-left: 20px;
+} 
+
+#two {
+  width: 380px;  
+}  
+
+#two h5 {
+  text-align: left; 
+}
+
+.organize {
+  display: inline-block; 
+}
+
+#three {
+  width: 395px;  
+  height: 200px; 
+  padding: 10px;
+}
+
